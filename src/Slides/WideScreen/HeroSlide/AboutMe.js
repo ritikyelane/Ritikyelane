@@ -87,7 +87,7 @@ class AboutMe extends Component {
         <AboutMeDescription>
         Hey....It's Ritik Kishor Yelane I am ENTC Undergraduating from GCEK and I am
         a technology enthusiast with the same a Focus person who work hard toward goal in efficient
-        manner. 
+        manner.     
         </AboutMeDescription>
       </Container>
     );
