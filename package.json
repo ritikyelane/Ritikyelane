@@ -1,0 +1,40 @@
+{
+  "homepage": "https://ritikyelane.github.io/Ritikyelane",
+  "name": "new",
+  "version": "0.1.0",
+  "main": "App.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-react-transform": "^3.0.0",
+    "cssnano": "^4.1.11",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^5.0.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "module-bundler": "^0.1.4",
+    "plugin": "^0.3.3",
+    "postcss": "^8.4.23",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.0",
+    "react-responsive": "^6.0.1",
+    "styled-components": "^4.0.3",
+    "ua-parser-js": "^0.7.19",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vh-check": "^2.0.5"
+  }
+}
