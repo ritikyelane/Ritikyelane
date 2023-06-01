@@ -84,8 +84,8 @@ class AboutMe extends Component {
     return (
       <Container>
         <AboutMeTitle scrollPercent={scrollPercent}>ABOUT ME</AboutMeTitle>
-        <AboutMeDescription>   
-        It's Ritik Kishor Yelane.I am ENTC Undergraduate from GCEK and
+        <AboutMeDescription>
+        Hey...It's Ritik Kishor Yelane.I am ENTC Undergraduating from GCEK and I am
         a technology enthusiast with the same a Focus person who work hard in efficient
         manner.
         </AboutMeDescription>

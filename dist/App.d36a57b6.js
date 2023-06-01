@@ -29726,7 +29726,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeTitle, {
         scrollPercent: scrollPercent
-      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "Hey....It's Ritik Kishor Yelane.I am ENTC Undergraduate from GCEK and a technology enthusiast with the same a Focus person who work hard in efficient manner."));
+      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "Hey...It's Ritik Kishor Yelane.I am ENTC Undergraduating from GCEK and I am a technology enthusiast with the same a Focus person who work hard in efficient manner."));
     }
   }]);
   return AboutMe;
@@ -32997,7 +32997,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65398" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50643" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
