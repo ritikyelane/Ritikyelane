@@ -29417,7 +29417,7 @@ var moveUp = function moveUp(init) {
 var hideWhiteBlocks = function hideWhiteBlocks() {
   return (0, _styledComponents.keyframes)(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n0%{\n    opacity: 1;\n    height: 35vh;\n}\n100%{\n    opacity: 0;\n    height: 0vh;\n}\n"])));
 };
-var TextToReveal = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  font-family: ", ";\n  text-align:center;\n  @media ", " {\n    font-size: 100px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n  @media ", " {\n    font-size: 131px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n  @media ", " {\n    font-size: 140px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n  @media ", " {\n    font-size: 190px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n"])), function (props) {
+var TextToReveal = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  font-family: ", ";\n  text-align:center;\n  @media ", " {\n    font-size: 100px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n  @media ", " {\n    font-size: 129px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n  @media ", " {\n    font-size: 140px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n  @media ", " {\n    font-size: 190px;\n    animation: ", " 1s cubic-bezier(0, 0.1, .12, .99) forwards;\n    transform: translateY(", "px);\n  }\n"])), function (props) {
   return props.fontFam;
 }, _breakpoints.default.tablet, function (props) {
   return props.reveal ? moveUp(100) : 'none';
@@ -29726,7 +29726,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeTitle, {
         scrollPercent: scrollPercent
-      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "Hey....It's Ritik Kishor Yelane.I am ENTC Undergraduating from GCEK and I am a technology enthusiast with the same a Focus person who work hard in efficient manner."));
+      }, "ABOUT ME"), /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "It's Ritik Kishor Yelane I am ENTC Undergraduating from GCEK and I am a technology enthusiast with the same a Focus person who work hard for goal's in efficient manner."));
     }
   }]);
   return AboutMe;
@@ -32997,7 +32997,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51040" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52806" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
