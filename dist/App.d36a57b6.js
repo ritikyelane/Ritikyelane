@@ -31868,7 +31868,7 @@ var AddRestaurant = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.43)")
+      transform: "translate(0px,-".concat(scroll * 4, "%)  scale(0.43)")
     };
   }
 })(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-135vh;\nright: 10vw;\ntransform-origin: right center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\nfilter: blur(1.2px);\n"])));
