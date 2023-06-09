@@ -31312,7 +31312,7 @@ var AboutMe = /*#__PURE__*/function (_Component) {
   _createClass(AboutMe, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "Hey....It's Ritik Kishor Yelane.I am ENTC Undergraduate from GCEK and a technology enthusiast with the same a Focus person who work hard in efficient"));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AboutMeDescription, null, "It's Ritik Kishor Yelane I am ENTC Undergraduating from GCEK and I am a technology enthusiast with the same a Focus person who work hard toward it's goal's in efficient manner."));
     }
   }]);
   return AboutMe;
@@ -31745,7 +31745,7 @@ var VoistrapPhoneScore = _styledComponents.default.img.attrs({
   style: function style(_ref3) {
     var scroll = _ref3.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 3.5, "%) scale(0.5)")
+      transform: "translate(0px,-".concat(scroll * 4.2, "%) scale(0.5)")
     };
   }
 })(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-110vh;\nleft:10vw;\ntransform-origin: left center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\nfilter: blur(0.8px);\n"])));
@@ -31753,7 +31753,7 @@ var VoistrapPhonePeople = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 2, "%) scale(0.45)")
+      transform: "translate(0px,-".concat(scroll * 2, "%) scale(0.44)")
     };
   }
 })(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-105vh;\nright: 10vw;\ntransform-origin: right center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\nfilter: blur(1.2px);\n"])));
@@ -31868,7 +31868,7 @@ var AddRestaurant = _styledComponents.default.img.attrs({
   style: function style(_ref4) {
     var scroll = _ref4.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.45)")
+      transform: "translate(0px,-".concat(scroll * 4, "%) scale(0.43)")
     };
   }
 })(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-135vh;\nright: 10vw;\ntransform-origin: right center;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\nfilter: blur(1.2px);\n"])));
@@ -32997,7 +32997,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52806" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50331" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

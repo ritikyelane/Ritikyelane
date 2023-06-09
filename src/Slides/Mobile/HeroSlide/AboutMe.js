@@ -43,8 +43,9 @@ class AboutMe extends Component {
     return (
       <Container>
         <AboutMeDescription>
-        Hey....It's Ritik Kishor Yelane.I am ENTC Undergraduate from GCEK and
-        a technology enthusiast with the same a Focus person who work hard in efficient
+        It's Ritik Kishor Yelane I am ENTC Undergraduating from GCEK and I am
+        a technology enthusiast with the same a Focus person who work hard toward it's goal's in efficient
+        manner.
         </AboutMeDescription>
       </Container>
     ); 

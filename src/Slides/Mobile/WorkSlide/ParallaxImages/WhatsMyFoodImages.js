@@ -52,7 +52,7 @@ filter: blur(0.8px);
 
 const AddRestaurant = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 4}%) scale(0.43)`,
   }),
 })`
 transition: transform 0.2s ease-out;

@@ -38,7 +38,7 @@ filter: blur(0.6px);
 
 const VoistrapPhoneScore = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 4.2}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -53,7 +53,7 @@ filter: blur(0.8px);
 
 const VoistrapPhonePeople = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 2}%) scale(0.44)`,
   }),
 })`
 transition: transform 0.2s ease-out;
